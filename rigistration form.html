@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+<style>
+a:hover{
+color:black;
+background-color:white;
+font-size:40px;
+}
+</style>
+</head>
+<body style="text-align:center;background-image:url('https://t4.ftcdn.net/jpg/01/12/37/49/240_F_112374955_RbF9FW6YoRSWXyVdiv9dOzd3EVfxH1GZ.jpg');background-repeat:no-repeat;background-attachment:fixed;background-size:100% 100%;height:100%;width:100%;"bacgroud-position:centre;">
+    <h1 style="background-color:white;">Registration Form</h1>
+    <form id="registration-form" action="login.html" style="color:white;border: 20px solid black;"><br><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Randffggh" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm-password" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="abcd@gmail.com" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for= "female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" max="2003-12-31" required><br><br>
+
+        <label for="languages-known">Languages Known:</label><br>
+        <label for="english">English</label>
+        <input type="checkbox" id="english" name="languages-known" value="english">
+        <label for="telugu">Telugu</label>
+        <input type="checkbox" id="telugu" name="languages-known" value="telugu">
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" id="hindi" name="languages-known" value="hindi">
+        <label for="tamil">Tamil</label>
+        <input type="checkbox" id="tamil" name="languages-known" value="tamil"><br><br>
+
+        <label for="continent">Choose Your Continent:</label>
+        <select id="continent" name="continent">
+            <option value="asia">Asia</option>
+            <option value="africa">Africa</option>
+            <option value="north-america">North America</option>
+            <option value="south-america">South America</option>
+            <option value="europe">Europe</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+
+        <a href="login.html" "hover=color:'black';background-color:'white';font-size:'300%';">Already have an account? Login here</span>
+        </a><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset"><br><br><br>
+    </form>
+</body>
+</html>
